@@ -54,4 +54,45 @@ from carpeta_con_modulo.modulo import variable
 print(variable)
 '''
 
-# quedé en importación completa sin referencia al módulo XXX
+
+# importación completa sin referencia al módulo XXX
+'''
+from modulo import * # Baneadisimo
+'''
+
+
+# variable __name__
+'''
+import ejemplo
+
+
+print(ejemplo.__name__)
+'''
+'''
+import ejemplo as ej
+
+
+print(ej.__name__)
+'''
+'''
+print(__name__)
+'''
+'''
+import ejemplo2
+
+print(ejemplo2.mi_nombre)
+'''
+'''
+if __name__ == "__main__":
+    print("Soy el módulo principal")
+'''
+
+
+# Abstracción de componentes
+'''
+import random
+
+
+print(random.randint(1, 10))
+print(random.choice(["a", "b", "c"]))
+'''
